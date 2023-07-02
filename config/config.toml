@@ -1,0 +1,49 @@
+[preprocess_html]
+## preprocess HTML to remove unwanted content, to reduce OpenAI API cost
+
+# these tags will be removed
+remove_tags = [
+    "aside",
+    "button",
+    "embed",
+    "filter",
+    "footer",
+    "form",
+    "header",
+    "iframe",
+    "img",
+    "input",
+    "label",
+    "link",
+    "meta",
+    "noscript",
+    "object",
+    "script",
+    "select",
+    "style",
+    "svg",
+    "textarea",
+]
+
+# classes containing these words will be removed
+remove_classes = ["carousel", "consent", "img","wt-display-none","gdpr","hide","display-none","overflow-hidden","headerstyle","containerstyle"]
+
+# ids containing these words will be removed
+remove_ids = ["carousel", "consent", "img","ensModalWrapper"]
+
+# elements selected by these css selectors will be removed
+remove_css_selectors = ['[aria-hidden="true"]','div[data-data]']
+
+[nimble]
+## config params related to Nimble API
+
+render = true
+render_type = "idle0"
+timeout = 40000
+max_pages = 3
+user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+[openai]
+## config params related to OpenAI API
+
+models=["gpt-3.5-turbo-16k"]
