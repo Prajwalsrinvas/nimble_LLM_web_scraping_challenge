@@ -126,8 +126,6 @@ python main.py --start_urls_file input/start_urls.txt --output_file_name books.c
 
 ## 📝 References
 
-Sure! Here are the links converted to Markdown with titles:
-
 - [Nimble API Quick Start Guide](https://docs.nimbleway.com/nimble-api/nimble-api-quick-start-guide)
 - [Real-Time URL Request in Nimble API](https://docs.nimbleway.com/nimble-api/nimble-api-quick-start-guide/real-time-url-request)
 - [Real-Time URL Request in Nimble API (Web API)](https://docs.nimbleway.com/nimble-api/web-api/real-time-url-request)
