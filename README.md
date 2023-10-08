@@ -8,7 +8,6 @@
 
 ---
 
-
 ## 📍Overview
 
 - This is a Python project that extracts specific elements by web scraping given URLs and collects product URLs.
@@ -18,6 +17,11 @@
 
 ---
 
+This project won the first place in this hackathon 🎉
+
+![certificate](certificate.png)
+
+---
 ## 🚀 Usage
 
 1. Clone the repo
